@@ -39,4 +39,29 @@ This repository contains my work on **object detection** using **YOLOv8** on the
 
 This project demonstrates YOLOv8's effectiveness in **foreign object detection**. Through hyperparameter optimization using grid search, I achieved high performance in detecting foreign objects with the FoD dataset.
 
-- Best Model: [best.pt](https://github.com/abdullahejazjanjua/Foriegn_object_detection/blob/main/train/weights/best.pt)
+- [Best Model](https://github.com/abdullahejazjanjua/Foriegn_object_detection/blob/main/train/weights/best.pt)
+
+---
+
+## Test the Model
+
+To test the trained model, clone the repository and run the following code:
+
+```bash
+git clone https://github.com/abdullahejazjanjua/Foriegn_object_detection.git
+```
+
+Then, use the following Python script to load and test the model:
+
+```python
+from ultralytics import YOLO
+
+# Load the best model
+model = YOLO("best.pt")
+
+# Make predictions
+model.predict("path_to_images_or_video")
+
+# Evaluate the model on the validation set
+model.val()
+```
