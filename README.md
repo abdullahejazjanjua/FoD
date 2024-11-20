@@ -2,7 +2,6 @@
 
 This repository contains my work on **object detection** using **YOLOv8** on the **FoD dataset**. This project focuses exclusively on experimenting with YOLOv8 for detection tasks, particularly aimed at identifying foriegn objects in images.
 
----
 
 # Project Overview
 
@@ -30,7 +29,6 @@ This repository contains my work on **object detection** using **YOLOv8** on the
 - **Recall**: 0.984
 - **mAP@50**: 0.989
 - **mAP@50-95**: 0.884
----
 
 # Conclusion
 
