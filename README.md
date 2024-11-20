@@ -2,7 +2,9 @@
 
 This repository contains my work on **object detection** using **YOLOv8** on the **FoD dataset**. This project focuses exclusively on experimenting with YOLOv8 for detection tasks, particularly aimed at identifying foriegn objects in images.
 
-## Project Overview
+---
+
+# Project Overview
 
 ### Detection
 
@@ -30,6 +32,6 @@ This repository contains my work on **object detection** using **YOLOv8** on the
 - **mAP@50-95**: 0.884
 ---
 
-## Conclusion
+# Conclusion
 
 This project demonstrates the versatility of YOLOv8 in detection task. Through grid search on hyperparameters, I aimed to optimize performance for detecting Foriegn objects.
